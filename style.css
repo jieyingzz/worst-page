@@ -1,0 +1,174 @@
+ /*style.css*/
+ 
+    body {
+        background-image: url('https://i.postimg.cc/SRFB2grX/20201102235337.jpg');
+    }
+    
+	ul {
+        list-style-type: none;
+        margin: 1px;
+        padding: 1px;
+        overflow: hidden;
+        background-color: green;
+    }
+    
+    li {
+        float: left;
+    }
+    
+	li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 16px 18px;
+        text-decoration: none;
+    }
+    
+    .tittle{
+        background-color:#33cc33;
+        color:white;
+        padding:20px;
+        position: absolute;
+        right: 80px;
+        top: 5px;
+        font: 30px;
+        font-family:verdana;
+        font-size: 40px;
+    }
+    h1{
+        color:red;
+    }
+    
+    #pinkbox{
+        margin: 20px;
+        float: right;
+        border: dashed pink 10px;
+        background-color:#ccffcc;
+        font-size: 20px;
+    }
+    #yellowbox{
+        border: solid yellow 35px;
+        background-color:#99ff66;
+        position: absolute;
+        right: 50px;
+        top: 500px;
+        font-size: 40px;
+    }
+    #bluebox{
+        border: double blue 30px;
+        padding: 30px;
+        background-color:pink;
+        font-size: 35px;
+    }
+    p1{
+        position: relative;
+        top: 50px;
+        font-size: 45px;
+        color:red;
+    }
+    .whitee{
+        background-color: white;
+        font-size: 30px;
+    }
+    #tomato{
+        border: dotted tomato 15px;
+        background-color:white;
+        font-size: 35px;
+        position: absolute;
+    }
+
+   #lime {
+    border: 3px solid green;
+    color: white;
+    background-color: lime;
+    overflow: auto;
+   }
+   
+   
+   
+   
+   #nopadding {
+  border: double green 5px;
+
+}
+
+#withpadding {
+  padding: 15px;
+  
+  border-left: blue 5px dotted;
+  border-right: blue 5px dotted;
+  border-top: orange 5px dotted;
+  border-bottom: orange 5px dotted;
+
+}
+
+.whitebox {
+  background-color: white;
+  width: 230px;
+  height: 85px;
+  font-size: 35px;
+}
+#fixedPosition {
+  position: fixed;
+  bottom: 0px;
+  right: 0px
+}
+
+
+
+#nomargin {
+  float: left;
+}
+
+#withmargin {
+  margin: 20px;
+  float: right;
+}
+
+.thewhitebox {
+  border: solid pink 8px;
+  padding: 15px;
+  background-color: lime;
+}
+
+
+
+
+.forg{
+    float: right;
+}
+#fixed{
+  position: fixed;
+  bottom: 0px;
+  left: 0px
+}
+   .fire {
+    font-size: 210%;
+    color: red;
+    background-color: gray;
+}
+.sad {
+    font-size: 110%;
+    color: purple;
+    background-color: red;
+}
+.mood {
+    font-size: 110%;
+    color: red;
+    background-color: black;
+}
+.i {
+    font-size: 90%;
+    color: lime;
+    background-color: white;
+}
+.label {
+    font-size: 130%;
+    color: pink;
+    background-color: green;
+}
+p2{
+        position: relative;
+        top: 50px;
+        font-size: 35px;
+        color:white;}
